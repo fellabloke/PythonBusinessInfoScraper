@@ -48,9 +48,9 @@ Command Line Options:
 
 Examples
 Search for coffee shops in New York:
-python scraper.py -s "coffee shops in New York"
+python BusinessInfoScraper.py -s "coffee shops in New York"
 Search for multiple terms defined in input.txt with a limit of 50 results each:
-python scraper.py -t 50
+python BusinessInfoScraper.py -t 50
 
 Input File Format
 Create a file named input.txt in the same directory as the script, with each search term on a new line:
