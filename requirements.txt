@@ -11,3 +11,6 @@ PyScreeze==1.0.1
 pytesseract==0.3.13
 pytweening==1.2.0
 six==1.17.0
+pandas==2.2.0
+numpy==1.26.3
+playwright==1.41.2
