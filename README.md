@@ -1,27 +1,24 @@
 # PythonBusinessInfoScraper
-Google Maps Business Scraper
-Overview
+Overview:
 This Python script automates the extraction of business information from Google Maps search results. It uses Playwright for browser automation to collect business names, addresses, websites, and phone numbers, then organizes this data into CSV files for easy analysis.
-Features
 
+Features:
 Automated Data Collection: Extracts business details from Google Maps search results
 Duplicate Detection: Ensures no duplicate business entries are stored
 Batch Processing: Process multiple search terms from a file
-Robust Error Handling: Gracefully manages connection issues and page navigation problems
 Consent Dialog Management: Automatically handles cookie consent popups
 Master List Tracking: Maintains a master list of businesses without websites
 
-Prerequisites
-
+Prerequisites:
 Python 3.8 or higher
 Playwright for Python
 Pandas
 
-Installation
-
+Installation:
 Clone this repository:
 
 git clone https://github.com/fellabloke/PythonBusinessInfoScraper.git
+
 cd PythonBusinessInfoScraper
 
 Set up a virtual environment:
@@ -31,6 +28,7 @@ python -m venv venv
 Activate the virtual environment:
 
 Windows: venv\Scripts\activate
+
 macOS/Linux: source venv/bin/activate
 
 Install the required packages:
@@ -40,8 +38,10 @@ pip install -r requirements.txt
 Install Playwright browsers:
 
 playwright install chromium
-Usage
-Command Line Options
+
+Usage:
+
+Command Line Options:
 
 -s, --search: Specify a single search term
 -t, --total: Maximum number of results to collect (default: 1,000,000)
@@ -71,7 +71,7 @@ website: Business website URL
 phone_number: Contact phone number
 error_message: Any errors encountered during scraping
 
-Limitations
+Limitations:
 
 Google Maps may change its UI structure, potentially breaking selectors
 Excessive scraping may trigger Google's anti-bot measures
